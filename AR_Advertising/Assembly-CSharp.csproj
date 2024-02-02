@@ -66,6 +66,7 @@
     <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
     <Compile Include="Assets\Scripts\BannerAd.cs" />
     <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
+    <Compile Include="Assets\Scripts\TapToPlace.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ExampleAssets\Shaders\FeatheredPlaneShader.shader" />
@@ -892,10 +893,6 @@
       <Project>{85710A06-601A-7A21-0DDF-3C594DA5CCA0}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{35F9E0CD-2F25-2B31-E790-AD682D7C4DCB}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
       <Project>{724B836E-D189-B166-63BA-1A99A8A4529E}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
@@ -912,13 +909,17 @@
       <Project>{DBF39AF9-E425-5A73-44DC-886F76013C40}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARCore.csproj">
-      <Project>{C1A7BD30-477C-ABC2-7F91-02FA2A9325BA}</Project>
-      <Name>Unity.XR.ARCore</Name>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{35F9E0CD-2F25-2B31-E790-AD682D7C4DCB}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.csproj">
       <Project>{AE5A6351-905C-7849-FBDA-064024C90819}</Project>
       <Name>Unity.XR.OpenXR.Features.MetaQuestSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARCore.csproj">
+      <Project>{C1A7BD30-477C-ABC2-7F91-02FA2A9325BA}</Project>
+      <Name>Unity.XR.ARCore</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.Editor.csproj">
       <Project>{47410F16-7BD7-5421-4548-B4BAE34D5D24}</Project>

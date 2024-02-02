@@ -38,7 +38,7 @@ public class ARObj_Controller : MonoBehaviour
     }
 
     void DisableAR() {
-        GameObject ARSystem = GameObject.Find("AR Session Origin");
+        GameObject ARSystem = GameObject.Find("XR Origin");
         ARSystem.GetComponent<ARAnchorManager>().enabled = false;
     }
 

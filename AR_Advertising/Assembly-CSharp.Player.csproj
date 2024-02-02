@@ -66,6 +66,7 @@
     <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
     <Compile Include="Assets\Scripts\BannerAd.cs" />
     <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
+    <Compile Include="Assets\Scripts\TapToPlace.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ExampleAssets\Shaders\FeatheredPlaneShader.shader" />
@@ -714,13 +715,13 @@
       <Project>{B00123CF-0A72-3906-03D6-B8185188A6AA}</Project>
       <Name>Unity.Mathematics.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARCore.Player.csproj">
-      <Project>{5AD37F16-CEB2-89A8-72A7-A26028E01057}</Project>
-      <Name>Unity.XR.ARCore.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Player.csproj">
       <Project>{D5014ACC-EA55-DDC5-1BCD-71FA918FDBA8}</Project>
       <Name>Unity.XR.OpenXR.Features.MetaQuestSupport.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARCore.Player.csproj">
+      <Project>{5AD37F16-CEB2-89A8-72A7-A26028E01057}</Project>
+      <Name>Unity.XR.ARCore.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.InteractionSubsystems.Player.csproj">
       <Project>{E6A714D5-D4F1-F85D-AD79-D7B9500B8E57}</Project>
